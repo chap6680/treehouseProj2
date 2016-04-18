@@ -133,7 +133,9 @@ PAGE: PORTFOLIO
   float: left;
   width: 45%;
   margin: 2.5%;
-  background-color: #f5f5f5;
+
+  background-image: url("../img/graybg.png");
+
   color: #bdc3c7;
 }
 
@@ -232,6 +234,23 @@ nav a, nav a:visited {
 /* selected nav link */
 nav a.selected, nav a:hover {
   color: #32673f;
+}
+
+
+
+
+/*************************
+Clearfix
+*************************/
+
+.clearfix:before,
+.clearfix:after {
+  content: " ";
+  display: table;
+}
+
+.clearfix:after {
+  clear: both;
 }
 
 
